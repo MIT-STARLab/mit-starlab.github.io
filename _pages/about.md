@@ -12,7 +12,7 @@ redirect_from:
 <!-- <div style="width: 70%; margin: 0 auto;">
     <img src="/images/clean_room.jpg" alt="STAR Lab members in the clean room." style="width:100%;">
 </div> -->
-<img src="{{ base_path }}/images/clean_room.jpg" alt="STAR Lab members in the clean room." width="500" style="display: block; margin-left: auto; margin-right: auto;" />
+<img src="{{ base_path }}/images/clean_room.JPG" alt="STAR Lab members in the clean room." width="500" style="display: block; margin-left: auto; margin-right: auto;" />
 
 <!-- ![STAR Lab members in the clean room.]({{ base_path }}/images/clean_room.jpg){: .align-center-image } -->
 
