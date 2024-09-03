@@ -1,0 +1,21 @@
+---
+permalink: /research/
+title: "Research"
+author_profile: true
+# redirect_from: 
+#   - /research
+---
+
+<iframe width="300" height="169" src="https://www.youtube.com/embed/BcRNIi06FkM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br><br>
+
+We achieve new scientific results from sensors on distributed space-based platforms. We innovate and use new commercial components to address technological challenges for future science missions, reducing cost and risk.
+
+__Weather sensing__: We develop, operate, and analyze data from nanosatellites that host miniaturized weather sensing instruments, such as microwave radiometers and Global Positioning System (GPS) radio occultation receivers. Microwave radiometers can passively make precise measurements of atmospheric temperature at different altitudes, even through clouds. We developed CubeSats to host fully rotating (scanning) microwave radiometer payloads. We built and flew three CubeSats to date; the lessons learned while using commercial components inspires our connectivity work. We have demonstrated for the first time that these miniature microwave radiometer systems can provide state of the art measurements comparable to instruments on larger spacecraft. For CubeSats to succeed operationally, instrument calibration and validation is essential. Previous missions: MicroMAS-1, MicroMAS-2A, MiRaTA. Upcoming missions: MicroMAS-2B, TROPICS, BeaverCube, AERO-VISTA. 
+
+__Connectivity__: A critical gap toward coordinated distributed sensing systems capable of aperture synthesis is the ability to support high-rate crosslink communications with precision timing/ranging between a large number of resource-constrained individual nanosatellite agents. The solution must be low-cost and low-complexity, so it can be incorporated into dozens to hundreds of units, power efficient, so resources are still available for the primary instruments, able to manage a large dynamic range due to distance and dynamics, and support high data rates (hundreds of Mbps to Gbps). We have been developing both laser communications (lasercom) terminals and ground stations as well as algorithms to enable near-optimal planning, scheduling, and routing of observations and data for hundreds or more individual spacecraft agents. Upcoming missions: CLICK. Ongoing investigations: SPRINT, MOSAIC. 
+
+__Exoplanet detection and characterization__: Both detection and characterization are needed to find truly Earth-like exoplanets. Transit photometry is an effective method for detection, and was used by the Kepler mission to discover more than 2,650 exoplanets (Wall). The Transiting Exoplanet Survey Satellite (TESS), launched in April 2018, will expand on Kepler’s detection legacy. The direct imaging method is promising for spectral characterization, however, reflected light from an Earth-like exoplanet is more than 1 billion times fainter than the light from its host star. To meet the contrast requirement, direct imaging telescopes are space-based. Even in space, deformable mirrors are needed to correct the wavefront for internal coronagraph direct imaging missions, as any aberration in the optical system creates bright noisy speckles that swamp the planet signal. Internal coronagraph missions have the advantage of being nimble, although external occulters can probe closer to the host star and have better optical throughput. An orbital demonstration is useful because of the mission-critical role of microelectromechanical systems (MEMS) Deformable Mirror (DM)s and the need for them to independently function for integration times up to several days. While they have undergone component-level ground-based environmental testing, closed loop operation of the system on-orbit and in the radiation environment will establish heritage and significantly reduce risk and cost as well as potentially modify the design for a future flagship mission. Previous missions: TESS. Upcoming missions: DeMi, WFIRST. Ongoing investigations: LGS. 
+
+__Nanosatellite technology__: We investigate miniaturization and innovation of key CubeSat components as well as demonstrating new technologies such as MEMS devices and shape memory alloys for CubeSat platforms. Ongoing investigations: FLAPS.
