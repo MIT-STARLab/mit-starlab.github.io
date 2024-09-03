@@ -14,17 +14,30 @@ author_profile: true
     <title>People Directory</title>
     <style>
         table {
-            border-collapse: collapse;
+            /* border-collapse: collapse; */
             width: 100%;
-            border: none;
+            /* border: none; */
         }
         td {
-            border: none;
-            padding: 8px;
+            /* border: none; */
+            padding: 15px 100px;
+            /* padding: 100px; Reduced padding to bring text closer to the images */
+            vertical-align: center; /* Vertically centers the content */
         }
         .name-column {
-            text-align: center;
+            /* text-align: center-right; */
+            /* position: relative; */
+            padding-left: 20%;
+            text-align: center; /* Keep text left-aligned within its adjusted position */
             font-weight: bold;
+            width: 20%; /* Adjust width as needed */
+        }
+        .image-column img {
+            display: block;
+            text-align: center; /* Keep text left-aligned within its adjusted position */
+            /* margin: 0 auto; */
+            max-width: 220px; /* Set a maximum width for the images */
+            height: auto; /* Maintain aspect ratio */
         }
     </style>
 </head>
@@ -35,15 +48,19 @@ author_profile: true
     <table>
         <tr>
             <td class ="name-column"><strong>John Doe</strong></td>
-            <td><img src="https://via.placeholder.com/100" alt="John Doe"></td>
+            <td class ="image-column"><img src="/images/clean_room.jpg" alt="Example."></td>
+            <td></td>
+
         </tr>
         <tr>
             <td class ="name-column"><strong>Jane Smith</strong></td>
-            <td><img src="https://via.placeholder.com/100" alt="Jane Smith"></td>
+            <td class ="image-column"><img src="https://via.placeholder.com/100" alt="Jane Smith"></td>
+            <td></td>
         </tr>
         <tr>
             <td class ="name-column"><strong>Alan Brown</strong></td>
-            <td><img src="https://via.placeholder.com/100" alt="Alan Brown"></td>
+            <td class ="image-column"><img src="https://via.placeholder.com/100" alt="Alan Brown"></td>
+            <td></td>
         </tr>
     </table>
 
