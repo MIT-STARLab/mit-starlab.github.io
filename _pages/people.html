@@ -14,30 +14,34 @@ author_profile: true
     <title>People Directory</title>
     <style>
         table {
-            /* border-collapse: collapse; */
+            border-collapse: collapse;
             width: 100%;
-            /* border: none; */
+            border: none;
         }
         td {
-            /* border: none; */
-            padding: 15px 100px;
-            /* padding: 100px; Reduced padding to bring text closer to the images */
-            vertical-align: center; /* Vertically centers the content */
+            border: none;
+            padding: 15px 8px;
+            text-align: center; /* Horizontally center content in all cells */
+            vertical-align: middle; /* Vertically centers the content */
         }
         .name-column {
             /* text-align: center-right; */
             /* position: relative; */
             padding-left: 20%;
-            text-align: center; /* Keep text left-aligned within its adjusted position */
+            /* text-align: center; */
             font-weight: bold;
             width: 20%; /* Adjust width as needed */
+            white-space: nowrap; /* Prevents text from wrapping to the next line */
         }
         .image-column img {
-            display: block;
-            text-align: center; /* Keep text left-aligned within its adjusted position */
+            display: inline-block;
+            text-align: center;
             /* margin: 0 auto; */
-            max-width: 220px; /* Set a maximum width for the images */
+            max-width: 100px; /* Set a maximum width for the images */
             height: auto; /* Maintain aspect ratio */
+        }
+        .blank-column {
+            max-width: 100px; /* Set a maximum width for the images */
         }
     </style>
 </head>
@@ -53,13 +57,88 @@ author_profile: true
 
         </tr>
         <tr>
-            <td class ="name-column"><strong>Jane Smith</strong></td>
-            <td class ="image-column"><img src="{{ base_path }}/images/headshots/small_paulserra.png" alt="Paul Serra"></td>
+            <td class ="name-column"><strong>Dr. Paul Serra</strong></td>
+            <td class ="image-column"><img src="{{ base_path }}/images/headshots/paulserra.png" alt="Paul Serra"></td>
             <td></td>
         </tr>
         <tr>
-            <td class ="name-column"><strong>Alan Brown</strong></td>
-            <td class ="image-column"><img src="https://via.placeholder.com/100" alt="Alan Brown"></td>
+            <td class ="name-column"><strong>Dr. Ajay Gill</strong></td>
+            <td class ="image-column"><img src="{{ base_path }}/images/headshots/ajay.jpg" alt="Paul Serra"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class ="name-column"><strong>Thomas Murphy</strong></td>
+            <td class ="image-column"><img src="{{ base_path }}/images/headshots/astronaut-clipart-cute-9.jpg" alt="Paul Serra"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class ="name-column"><strong>Nicholas Belsten</strong></td>
+            <td class ="image-column"><img src="{{ base_path }}/images/headshots/Nick_Belsten.jpg" alt="Paul Serra"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class ="name-column"><strong>Patrick McKeen</strong></td>
+            <td class ="image-column"><img src="{{ base_path }}/images/headshots/Patrick_small.jpeg" alt="Paul Serra"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class ="name-column"><strong>Shreeyam Kacker</strong></td>
+            <td class ="image-column"><img src="{{ base_path }}/images/headshots/ShreeyamKacker.JPG" alt="Paul Serra"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class ="name-column"><strong>Hannah Tomio</strong></td>
+            <td class ="image-column"><img src="{{ base_path }}/images/headshots/HannahTomio.JPG" alt="Paul Serra"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class ="name-column"><strong>Sophia Vlahakis</strong></td>
+            <td class ="image-column"><img src="{{ base_path }}/images/headshots/SophiaVlahakis.jpg" alt="Paul Serra"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class ="name-column"><strong>Mary Dahl</strong></td>
+            <td class ="image-column"><img src="{{ base_path }}/images/headshots/MaryDahl.jpg" alt="Paul Serra"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class ="name-column"><strong>Samantha Hasler</strong></td>
+            <td class ="image-column"><img src="{{ base_path }}/images/headshots/SamanthaHasler.jpg" alt="Paul Serra"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class ="name-column"><strong>Alex Meredith</strong></td>
+            <td class ="image-column"><img src="{{ base_path }}/images/headshots/alex.jpg" alt="Alex Meredith"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class ="name-column"><strong>Maddie Garcia</strong></td>
+            <td class ="image-column"><img src="{{ base_path }}/images/headshots/maddieg.png" alt="Paul Serra"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class ="name-column"><strong>Mason Black</strong></td>
+            <td class ="image-column"><img src="{{ base_path }}/images/headshots/mason.png" alt="Paul Serra"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class ="name-column"><strong>Humberto Caldelas</strong></td>
+            <td class ="image-column"><img src="{{ base_path }}/images/headshots/astronaut-clipart-cute-9.jpg" alt="Paul Serra"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class ="name-column"><strong>Christine Page</strong></td>
+            <td class ="image-column"><img src="{{ base_path }}/images/headshots/christine_page.jpg" alt="Paul Serra"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class ="name-column"><strong>Katherine Chun</strong></td>
+            <td class ="image-column"><img src="{{ base_path }}/images/headshots/KCHUN.jpg" alt="Paul Serra"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class ="name-column"><strong>Leonardo Gallo</strong></td>
+            <td class ="image-column"><img src="{{ base_path }}/images/headshots/leo.jpeg" alt="Paul Serra"></td>
             <td></td>
         </tr>
     </table>
