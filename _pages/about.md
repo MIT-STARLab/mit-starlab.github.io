@@ -8,7 +8,12 @@ redirect_from:
 ---
 <!-- ![This is an example image](/images/clean_room.jpg) -->
 <!-- <img src="/images/clean_room.jpg" alt="This is an example image" width="600"/> -->
-<img src="/images/clean_room.jpg" alt="This is an example image" style="width:70%; margin-left:auto; margin-right:auto; display:block;"/>
+<!-- <img src="/images/clean_room.jpg" alt="STAR Lab members in the clean room." style="width:70%; margin-left:auto; margin-right:auto; display:block;"/> -->
+<!-- <div style="width: 70%; margin: 0 auto;">
+    <img src="/images/clean_room.jpg" alt="STAR Lab members in the clean room." style="width:100%;">
+</div> -->
+<img src="images/clean_room.jpg" alt="STAR Lab members in the clean room." width="500" style="display: block; margin-left: auto; margin-right: auto;" />
+
 
 
 The Space Telecommunications, Astronomy and Radiation Laboratory, led by [Prof. Kerri Cahoy](https://aeroastro.mit.edu/people/kerri-cahoy/), is part of the Space Systems Laboratory in the Department of Aeronautics and Astronautics at MIT.
