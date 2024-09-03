@@ -6,7 +6,9 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg">
+            <a href="{{ base_path }}/">{{ site.title }}</a>
+          </li>
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
@@ -19,5 +21,14 @@
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
+    <!-- <div class="masthead__logo" style="float: right;"> -->
+      <!-- <div class="masthead__logo" style="float: right; margin-top: -4px;"> -->
+        <div class="masthead__logo" style="float: right; position: relative; top: -40px;">
+       <a href="https://www.mit.edu">
+        <img src="{{ base_path }}/images/logos/mit_logo_std_rgb_mit-red.png" alt="Site Logo" style="height: 40px;">
+      </a>
+    </div>
+
+
   </div>
 </div>

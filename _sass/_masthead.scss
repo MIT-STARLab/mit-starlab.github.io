@@ -21,6 +21,7 @@
     @include clearfix;
     padding: 1em 1em 1em;
     font-family: $sans-serif-narrow;
+    // font-family: $cool_font;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
@@ -55,4 +56,9 @@
     padding-right: 3em;
     font-weight: 700;
   }
+}
+
+.masthead__logo {
+  position: relative;
+  z-index: 10; /* Ensures the logo is in front of other elements */
 }
